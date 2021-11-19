@@ -1,0 +1,12 @@
+a = str(input())
+b = str(input())
+c = str(input())
+x = len(a)
+y = len(b)
+z = len(c)
+A = (min(x, y, z))
+B = (max(x, y, z))
+if (A + B) / 2 == (x + z + y) - (A + B):
+    print("YES")
+else:
+    print("NO")
